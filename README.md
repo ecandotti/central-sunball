@@ -1,5 +1,5 @@
-# Sunball Marseille App  
-## React-Native application for the Sunball Marseille event  
+# Massilia Sunball App  
+## React-Native application for the Massilia Sunball event  
 
 Technologies used :
 - React (DOM / Native / Icons)

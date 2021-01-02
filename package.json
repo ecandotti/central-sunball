@@ -1,6 +1,6 @@
 {
-  "name": "sunball-central",
-  "description": "Mobile application (in React-Native) for Sunball event organized by Central Marseille",
+  "name": "massilia-sunball",
+  "description": "Mobile application (in React-Native) for Massilia Sunball event organized by Central Marseille",
   "version": "0.1.0",
   "scripts": {
     "android": "react-native run-android",
