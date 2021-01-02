@@ -1,0 +1,12 @@
+{
+  "name": "sunball-central",
+  "displayName": "sunball-central",
+  "expo": {
+    "name": "sunball-central",
+    "slug": "sunball-central",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
