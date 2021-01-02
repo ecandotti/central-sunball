@@ -1,5 +1,7 @@
 {
-  "main": "index.js",
+  "name": "sunball-central",
+  "description": "Mobile application (in React-Native) for Sunball event organized by Central Marseille",
+  "version": "0.1.0",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -7,6 +9,20 @@
     "start": "react-native start",
     "test": "jest"
   },
+  "license": "MIT",
+  "author": {
+    "name" : "Enzo Candotti"
+,   "email" : "enzo.candotti16@hotmail.com"
+  },
+  "contributors": [
+    "Bryan Tredy <bryan.tredy@email.com>"
+  ],
+  "main": "index.js",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/ecandotti/central-sunball.git"
+  },
+  "homepage": "https://massiliasunball.fr",
   "dependencies": {
     "expo": "~40.0.0",
     "expo-splash-screen": "~0.8.0",
