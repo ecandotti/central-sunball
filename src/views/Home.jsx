@@ -1,5 +1,6 @@
 import React from 'react'
 import { StyleSheet, ImageBackground, View, Text } from 'react-native'
+
 import background_img from '../assets/images/main_bg.png'
 
 const Home = () => {
@@ -21,12 +22,12 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         margin: 30,
-        borderRadius: 20,
+        borderRadius: 10,
         padding: 30,
         backgroundColor: 'white',
-        opacity: 0.7,
-        borderWidth: 5,
-        borderColor: 'red'
+        opacity: 0.95,
+        borderWidth: 4,
+        borderColor: '#8e44ad'
     }
 })
 

@@ -11,9 +11,7 @@ const Tab = createMaterialBottomTabNavigator()
 
 const Navigation = () => {
     return (
-    <Tab.Navigator barStyle={styles.main}
-        initialRouteName="Home"
-        tabBarOptions={{ activeTintColor: 'pink', inactiveTintColor: 'red' }}>
+    <Tab.Navigator barStyle={styles.main} initialRouteName="Home">
         <Tab.Screen name="Live" component={Live} options={{tabBarIcon: () => <MaterialIcons name="live-tv" size={24} color="white"/>}}/>
         <Tab.Screen name="Home" component={Home} options={{tabBarIcon: () => <Entypo name="home" size={24} color="white" />}} />
         <Tab.Screen name="Help" component={Help} options={{tabBarIcon: () => <Entypo name="megaphone" size={24} color="white" />}}/>
